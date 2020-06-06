@@ -129,3 +129,160 @@ var far= (tem_Celcius * 9/5) + 32;
 
 document.write(tem_Celcius + " is " + far +"F")
 document.write("<br>" + tem_Fahrenhei + " is " + cel + "C")
+
+
+
+
+// 7. Write a program to implement checkout process of a
+// shopping cart system for an e-commerce website. Store
+// the following in variables
+// Page 4 of 9MATH EXPRESSIONS | JAVASCRIPT
+// a. Price of item 1
+// b. Price of item 2
+// c. Ordered quantity of item 1
+// d. Ordered Quantity of item 2
+// e. Shipping charges
+// Compute the total cost & show the receipt in your browser.
+
+
+
+document.write("<br>")
+document.write("<br>")
+document.write("<br>")
+
+var item1=3;
+var item2=2;
+var price1=650;
+var price2=100;
+var extra=100;
+var total=item1*price1 + item2*price2 +100;
+
+
+document.write(" Price of item 1 is " +price1 + "<br>" + "quantity of item 1 is 3 " + "<br>" +" Price of item 2 is " + price2 + "<br>" + " Quantity of item 2 is 7 " + "<br>" + " Shipping charges " + extra +  "<br>" + "<br>" +"Total cost of your order is  " + total ) 
+
+
+
+
+// 8. Store total marks & marks obtained by a student in 2
+// variables. Compute the percentage & show the result in
+// your browser
+
+
+document.write("<br>")
+document.write("<br>")
+document.write("<br>")
+
+
+var total_marks=980;
+var obtained=804;
+
+var percentage=(obtained/total_marks)*100;
+
+document.write("Total marks: " + total_marks + "<br>" + " Marks obtained : " + obtained + "<br>"+ "Percentage :" + percentage + "%" )
+
+
+// 9. Assume we have 10 US dollars & 25 Saudi Riyals. Write a
+// script to convert the total currency to Pakistani Rupees.
+// Perform all calculations in a single expression.
+// (Exchange rates : 1 US Dollar = 104.80 Pakistani Rupee
+// and 1 Saudi Riyal = 28 Pakistani Rupee)
+
+
+document.write("<br>")
+document.write("<br>")
+document.write("<br>")
+
+
+var riyal=28;
+var dollar=104.80;
+
+var total_currency_in_pkr= 10*dollar + 25*riyal;
+
+document.write("Total Currency in PKR : " + total_currency_in_pkr)
+
+
+
+// 10. Write a program to initialize a variable with some
+// number and do arithmetic in following sequence:
+// a. Add 5
+// b. Multiply by 10
+// c. Divide the result by 2
+// Perform all calculations in a single expression
+
+document.write("<br>")
+document.write("<br>")
+document.write("<br>")
+
+var v=5;
+v=(v+5)*10/2
+document.write(v)
+
+
+// 11. The Age Calculator: Forgot how old someone is?
+// Calculate it!
+// a. Store the current year in a variable.
+// b. Store their birth year in a variable.
+// c. Calculate their 2 possible ages based on the stored
+// values.
+// Output them to the screen like so: “They are either NN or NN
+// years old”.
+
+
+
+var year=2020;
+var birth_year=1997;
+var Age= 2020- 1997;
+
+document.write(" Current year: " + year +"<br>" + "Birth year " + birth_year + "<br>" +"Your Age is : " +Age)
+
+
+// 12. The Geometrizer: Calculate properties of a circle.
+// a. Store a radius into a variable.
+// b. Calculate the circumference based on the radius, and
+// output “The circumference is NN”.
+// (Hint : Circumference of a circle = 2 π r , π = 3.142)
+// Calculate the area based on the radius, and output “The
+// area is NN”. (Hint : Area of a circle = π r 2 , π = 3.142)
+
+
+document.write("<br>")
+document.write("<br>")
+document.write("<br>")
+
+
+var r=20;
+var pi=3.142;
+var C=2*pi*r
+var A=pi*r**2;
+
+document.write("<h1>" + "The Geometrizer" + "</h1>")
+document.write("Radius of a circle : " +r + "<br>" + "The circumference is :" + C +"<br>" + " The area is : " +A)
+
+
+
+// 13. The Lifetime Supply Calculator: Ever wonder how
+// much a “lifetime supply” of your favorite snack is?
+// Wonder no more.
+// a. Store your favorite snack into a variable
+// b. Store your current age into a variable.
+// c. Store a maximum age into a variable.
+// d. Store an estimated amount per day (as a number).
+// e. Calculate how many would you eat total for the rest of
+// your life.
+// Output the result to the screen like so: “You will need
+// NNNN to last you until the ripe old age of NN”.
+
+
+document.write("<br>")
+document.write("<br>")
+document.write("<br>")
+
+var snack="Chocolate chip";
+var c_age=15;
+var m_age=65;
+var snack_amount_day=3;
+var total_snack_amount= (m_age - c_age)*3
+
+document.write("<h1>" + "The Lifetime Supply Calculator" + "</h1>")
+
+document.write("Favorite snack: "+ snack + "<br>"+"Current Age : " +c_age  + "<br>"+ "Maximum age : "+ m_age + "<br>" + " Amount of snacks per day" +snack_amount_day + "<br>" + " You will need "+ total_snack_amount + "to last you until the ripe old age of " + m_age)
