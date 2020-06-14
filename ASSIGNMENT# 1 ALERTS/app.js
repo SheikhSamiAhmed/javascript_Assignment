@@ -3,6 +3,7 @@
 /*
 1. Write a script to greet your website visitor using JS alert
 box.
+alert('ASSLAM U ALAIKUM , GOOD MORNING')
 2. Write a script to display following message on your web
 page:
 */
@@ -38,4 +39,5 @@ c. Body (inside your page’s HTML)
 d. Body (after your page’s HTML)
 
 */
+when i place <script src=app.js> </script>  after head and inside the body tag and outside the body tag  it will show tha same output
 
